@@ -1,0 +1,31 @@
+{
+  "name": "wos-dictionary-worker",
+  "version": "1.0.0",
+  "description": "A Words on Stream Dictionary Cloudflare Worker",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"typescript": "^5.5.2",
+		"vitest": "~3.0.7",
+		"wrangler": "^4.15.2"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkio/wos-dictionary-worker.git"
+  },
+  "keywords": [],
+  "author": "clarkio",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/clarkio/wos-dictionary-worker/issues"
+  },
+  "homepage": "https://github.com/clarkio/wos-dictionary-worker#readme"
+}
