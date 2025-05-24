@@ -45,6 +45,7 @@ import { shouldBlockWord } from './profanity-filter';
 console.log('Imported shouldBlockWord function:', !!shouldBlockWord);
 
 export interface Env {
+  IS_DELETE_ALLOWED: string;
   WORD_DICTIONARY: DurableObjectNamespace;
   // Add any other bindings your worker needs, e.g., KV, R2 buckets
 }
@@ -105,6 +106,15 @@ export class WordDictionaryDO implements DurableObject {
         });
       case 'DELETE':
         try {
+          if (this.env.IS_DELETE_ALLOWED.toLocaleLowerCase().trim() !== 'true') {
+            return new Response(JSON.stringify({ error: 'DELETE method is not allowed.' }), {
+              status: 403,
+              headers: {
+                "Content-Type": "application/json",
+                ...corsHeaders(request),
+              }
+            });
+          }
           const data = await request.json() as { word?: string };
           const { word } = data;
           if (word && typeof word === 'string' && word.trim() !== '') {
