@@ -10,7 +10,7 @@
             // Direct check for "1" in PATCH handler
             if (word === '1') {
               console.log('PATCH handler caught number "1" directly');
-              return new Response(JSON.stringify({ error: 'Numbers are not allowed' }), { 
+              return new Response(JSON.stringify({ error: 'Numbers are not allowed' }), {
                 status: 400,
                 headers: {
                   "Content-Type": "application/json",
@@ -18,12 +18,12 @@
                 }
               });
             }
-            
+
             // Check for inappropriate content
             const filterResult = await this.filterWord(word);
             console.log(`Filter result for '${word}':`, filterResult); // Add debugging
             if (!filterResult.allowed) {
-              return new Response(JSON.stringify({ error: filterResult.reason }), { 
+              return new Response(JSON.stringify({ error: filterResult.reason }), {
                 status: 400,
                 headers: {
                   "Content-Type": "application/json",
@@ -103,6 +103,47 @@ export class WordDictionaryDO implements DurableObject {
             ...corsHeaders(request),
           }
         });
+      case 'DELETE':
+        try {
+          const data = await request.json() as { word?: string };
+          const { word } = data;
+          if (word && typeof word === 'string' && word.trim() !== '') {
+            if (this.words.includes(word)) {
+              this.words = this.words.filter(w => w !== word);
+              await this.state.storage.put('words', this.words);
+              return new Response(JSON.stringify(this.words), {
+                headers: {
+                  "Content-Type": "application/json",
+                  ...corsHeaders(request),
+                }
+              });
+            }
+            return new Response(JSON.stringify({ error: 'Word not found in the dictionary.' }), {
+              status: 404,
+              headers: {
+                "Content-Type": "application/json",
+                ...corsHeaders(request),
+              }
+            });
+          }
+          return new Response(JSON.stringify({ error: 'Invalid input: "word" must be a non-empty string.' }), {
+            status: 400,
+            headers: {
+              "Content-Type": "application/json",
+              ...corsHeaders(request),
+            }
+          });
+        } catch (error) {
+          console.error('Error in DELETE:', error);
+          return new Response(JSON.stringify({ error: 'Internal Server Error' }), {
+            status: 500,
+            headers: {
+              "Content-Type": "application/json",
+              ...corsHeaders(request),
+            }
+          });
+
+        }
       case 'PATCH':
         try {
           const data = await request.json() as { word?: string };
