@@ -121,6 +121,7 @@ export class WordDictionaryDO implements DurableObject {
             if (this.words.includes(word)) {
               this.words = this.words.filter(w => w !== word);
               await this.state.storage.put('words', this.words);
+              console.log(`Deleted word: '${word}'`);
               return new Response(JSON.stringify(this.words), {
                 headers: {
                   "Content-Type": "application/json",
@@ -128,6 +129,7 @@ export class WordDictionaryDO implements DurableObject {
                 }
               });
             }
+            console.log(`Word not found for deletion: '${word}'`);
             return new Response(JSON.stringify({ error: 'Word not found in the dictionary.' }), {
               status: 404,
               headers: {
@@ -175,6 +177,9 @@ export class WordDictionaryDO implements DurableObject {
             if (!this.words.includes(word)) {
               this.words.push(word);
               await this.state.storage.put('words', this.words);
+              console.log(`Added word: '${word}'`);
+            } else {
+              console.log(`Word already exists: '${word}'`);
             }
             return new Response(JSON.stringify(this.words), {
               headers: {
