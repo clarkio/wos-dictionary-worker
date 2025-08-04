@@ -19,7 +19,7 @@ export async function isProfane(word: string): Promise<boolean> {
 }
 
 // Main function to determine if a word should be blocked
-export async function shouldBlockWord(word: string): Promise<{ allowed: boolean; reason?: string }> {
+export async function shouldBlockWord(word: string): Promise<{ allowed: boolean; reason?: string; }> {
   if (!word || typeof word !== 'string') {
     return { allowed: false, reason: 'Invalid input' };
   }
@@ -52,6 +52,21 @@ export async function shouldBlockWord(word: string): Promise<{ allowed: boolean;
     return { allowed: false, reason: 'Word contains inappropriate content' };
   }
 
-  // All checks passed
+  // Check if it's a valid English word
+  const isValidWord = await isValidEnglishWord(word);
+  if (!isValidWord) {
+    return { allowed: false, reason: 'Not a valid English word' };
+  }
+
   return { allowed: true };
+}
+
+async function isValidEnglishWord(word: string): Promise<boolean> {
+  try {
+    const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+    return response.ok;
+  } catch (error) {
+    console.error('Dictionary API error:', error);
+    return false;
+  }
 }

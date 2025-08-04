@@ -56,7 +56,7 @@ export class WordDictionaryDO implements DurableObject {
   words: string[];
   initialized: boolean;
 
-  constructor(state: DurableObjectState, env: Env) {
+  constructor (state: DurableObjectState, env: Env) {
     this.state = state;
     this.env = env;
     this.words = [];
@@ -79,7 +79,7 @@ export class WordDictionaryDO implements DurableObject {
     }
   }
 
-  async filterWord(word: string): Promise<{ allowed: boolean; reason?: string }> {
+  async filterWord(word: string): Promise<{ allowed: boolean; reason?: string; }> {
     console.log(`Filtering word: '${word}'`);
     const result = await shouldBlockWord(word);
     console.log(`Filter result: ${JSON.stringify(result)}`);
@@ -115,7 +115,7 @@ export class WordDictionaryDO implements DurableObject {
               }
             });
           }
-          const data = await request.json() as { word?: string };
+          const data = await request.json() as { word?: string; };
           const { word } = data;
           if (word && typeof word === 'string' && word.trim() !== '') {
             if (this.words.includes(word)) {
@@ -158,7 +158,7 @@ export class WordDictionaryDO implements DurableObject {
         }
       case 'PATCH':
         try {
-          const data = await request.json() as { word?: string };
+          const data = await request.json() as { word?: string; };
           const { word } = data;
 
           if (word && typeof word === 'string' && word.trim() !== '') {
