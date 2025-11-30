@@ -8,14 +8,17 @@
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "test": "vitest",
-    "cf-typegen": "wrangler types"
+    "cf-typegen": "wrangler types",
+    "analyze-words": "node scripts/analyze-words.js"
   },
   "devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.8.19",
-		"typescript": "^5.5.2",
-		"vitest": "~3.0.7",
-		"wrangler": "^4.15.2"
-	},
+    "@cloudflare/vitest-pool-workers": "^0.8.19",
+    "franc-min": "^6.2.0",
+    "typescript": "^5.5.2",
+    "vitest": "~3.0.7",
+    "wordlist-english": "^1.2.1",
+    "wrangler": "^4.15.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/clarkio/wos-dictionary-worker.git"
@@ -27,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/clarkio/wos-dictionary-worker/issues"
   },
-  "homepage": "https://github.com/clarkio/wos-dictionary-worker#readme"
+  "homepage": "https://github.com/clarkio/wos-dictionary-worker#readme",
+  "dependencies": {
+    "dictionary-en": "^4.0.0",
+    "dictionary-pt": "^4.0.0"
+  }
 }
