@@ -1,0 +1,103 @@
+{
+  "category": "portuguese",
+  "count": 12,
+  "confidence_threshold": "75.0%",
+  "words": [
+    {
+      "word": "bilhar",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "brilha",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "brilhar",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "cada",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "calha",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "casa",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "ilha",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "ilhar",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "nome",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "onde",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "outro",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    },
+    {
+      "word": "para",
+      "language": "portuguese",
+      "confidence": 98.0,
+      "details": {
+        "reason": "common_portuguese_word"
+      }
+    }
+  ]
+}
