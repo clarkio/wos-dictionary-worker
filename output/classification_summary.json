@@ -1,0 +1,10 @@
+{
+  "total_words": 10138,
+  "threshold": "60.0%",
+  "categories": {
+    "total": 10138,
+    "english": 10040,
+    "portuguese": 12,
+    "unknown": 86
+  }
+}

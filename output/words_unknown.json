@@ -1,0 +1,1135 @@
+{
+  "category": "unknown",
+  "count": 86,
+  "confidence_threshold": "60.0%",
+  "words": [
+    {
+      "word": "aide",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "aire",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "auge",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "ease",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "eave",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "iate",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "ouve",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "yoke",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "yore",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "yule",
+      "language": "english",
+      "confidence": 55,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "silent_e_pattern",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "4 factors"
+      }
+    },
+    {
+      "word": "acao",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "adieu",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "adio",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aeon",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aerie",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aero",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "afio",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ague",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ahoy",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "airy",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "alee",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "alie",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aloe",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aqua",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "area",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aria",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "atai",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ateei",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "atei",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ateie",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "atua",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aura",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "aurei",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "auto",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "away",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ayah",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ayes",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "baia",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "beau",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ciao",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "doai",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "doao",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "easy",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "eerie",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "epee",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "euro",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "eyes",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "geai",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "gooey",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "idea",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ilea",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ilia",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "iodo",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ioga",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "iota",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "irei",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ixia",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "joey",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "leia",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "lieu",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "luau",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "mayo",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "moeu",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "moue",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "obey",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "oboe",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "okay",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "okie",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "oleo",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ooooh",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ouro",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "outie",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "roue",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "ruia",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "teia",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "urea",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yeah",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "year",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yeas",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yeti",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yoga",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yogi",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yoni",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "your",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yuan",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    },
+    {
+      "word": "yuga",
+      "language": "english",
+      "confidence": 50,
+      "details": {
+        "indicators": [
+          "basic_structure",
+          "has_vowels",
+          "non_standard_pattern"
+        ],
+        "score_breakdown": "3 factors"
+      }
+    }
+  ]
+}
