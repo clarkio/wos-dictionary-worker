@@ -1,7 +1,7 @@
 {
   "category": "portuguese",
   "count": 12,
-  "confidence_threshold": "75.0%",
+  "confidence_threshold": "60.0%",
   "words": [
     {
       "word": "bilhar",

@@ -3,16 +3,16 @@
 ## Summary
 
 **Total Words Analyzed:** 10,138
-**Confidence Threshold:** 75%
+**Confidence Threshold:** 60%
 **Date:** 2025-12-03
 
 ## Results
 
 | Category | Count | Percentage | Status |
 |----------|-------|------------|--------|
-| **English** | 2,312 | 22.8% | ≥75% confidence |
-| **Portuguese** | 12 | 0.1% | ≥75% confidence |
-| **Unknown/Uncertain** | 7,814 | 77.1% | <75% confidence - requires manual review |
+| **English** | 10,040 | 99.0% | ≥60% confidence |
+| **Portuguese** | 12 | 0.1% | ≥60% confidence |
+| **Unknown/Uncertain** | 86 | 0.8% | <60% confidence - requires manual review |
 
 ## Portuguese Words Identified
 
@@ -47,44 +47,44 @@ Sample English words classified with high confidence (≥75%):
 
 ## Unknown/Uncertain Words
 
-7,814 words scored below the 75% confidence threshold. These are flagged for manual review.
+Only 86 words scored below the 60% confidence threshold. These are flagged for manual review.
 
 **Common characteristics of uncertain words:**
-- Many are scoring 70-73% confidence (just below threshold)
-- Most appear to be English words based on linguistic patterns
-- They lack strong English markers (like 'th', common endings, etc.)
+- Scoring 50-55% confidence
+- Many are short words (3-4 letters)
+- Unusual vowel patterns or letter combinations
+- May include borrowed words or specialized terms
 
 **Sample uncertain words:**
-- accent (73%)
-- agent (73%)
-- ancient (73%)
-- project (70%)
-- finance (70%)
-- change (70%)
+- aide (55%)
+- ease (55%)
+- yoke (55%)
+- aeon (50%)
+- ague (50%)
+- ahoy (50%)
 
 ## Recommendations
 
-### Option 1: Manual Review (Current Approach)
-- Review the 7,814 words in `output/words_unknown.json`
+### Manual Review (Highly Manageable)
+- Review only 86 words in `output/words_unknown.json`
 - Words are sorted by confidence score (highest first)
-- Focus on words with confidence ≥70% first (likely English)
+- Most are short or unusual words that may be:
+  - Valid English words with unusual patterns
+  - Borrowed words from other languages
+  - Archaic or specialized terms
+  - Potentially invalid/made-up words
 
-### Option 2: Adjust Confidence Threshold
-If manually reviewing 7,814 words is impractical, consider:
-
-- **70% threshold:** Would classify 4,138 as English, leaving 5,988 for review
-- **65% threshold:** Would classify more words, but with lower confidence
-
-### Option 3: Hybrid Approach
-1. Auto-accept words ≥75% (current results)
-2. Manually review words in 70-74% range (approximately 1,826 words)
-3. Flag words <70% for deeper investigation
+### Next Steps
+1. Review the 86 uncertain words (should take <10 minutes)
+2. Manually categorize each as English, Portuguese, or Invalid
+3. Update the respective JSON files with your decisions
+4. The classifier can be re-run on new word lists using the same 60% threshold
 
 ## Output Files
 
-1. **`output/words_english.json`** - 2,312 English words (≥75% confidence)
-2. **`output/words_portuguese.json`** - 12 Portuguese words (≥75% confidence)
-3. **`output/words_unknown.json`** - 7,814 uncertain words (<75% confidence)
+1. **`output/words_english.json`** - 10,040 English words (≥60% confidence)
+2. **`output/words_portuguese.json`** - 12 Portuguese words (≥60% confidence)
+3. **`output/words_unknown.json`** - 86 uncertain words (<60% confidence)
 4. **`output/classification_summary.json`** - Statistical summary
 
 ## Classification Methodology
